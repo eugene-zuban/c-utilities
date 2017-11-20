@@ -46,6 +46,6 @@ int main(void) {
         isActive = (answer == 'Y');
     }
 
-    return 1;
+    return 0;
 }
 
