@@ -16,7 +16,7 @@ char *decToBase(int32_t number, int32_t base) {
     const char baseDigits[] = {"0123456789ABCDEF"};
     char *buffer = (char *) calloc(sizeof(char), MAX_INT_BITS + 1);
     if (buffer == NULL) {
-        fprintf(stderr, "Memory alloc error\n");
+        fprintf(stderr, "Memory allocation error\n");
         exit(EXIT_FAILURE);
     }
 
